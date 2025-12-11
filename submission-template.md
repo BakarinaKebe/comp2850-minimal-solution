@@ -1,22 +1,21 @@
 # COMP2850 HCI Assessment: Evaluation & Redesign Portfolio
 
-> **📥 Download this template**: [COMP2850-submission-template.md](/downloads/COMP2850-submission-template.md)
-> Right-click the link above and select "Save link as..." to download the template file.
+**Note**: This submission is incomplete. Another submission will be made before the final deadline
 
 **Student**: [Your name and student ID]
-**Submission date**: [DD/MM/YYYY]
+**Submission date**: [11/12/2025]
 **Academic Year**: 2025-26
 
 ---
 
 ## Privacy & Ethics Statement
 
-- [ ] I confirm all participant data is anonymous (session IDs use P1_xxxx format, not real names)
-- [ ] I confirm all screenshots are cropped/blurred to remove PII (no names, emails, student IDs visible)
-- [ ] I confirm all participants gave informed consent
-- [ ] I confirm this work is my own (AI tools used for code assistance are cited below)
+- [&check;] I confirm all participant data is anonymous (session IDs use P1_xxxx format, not real names)
+- [&check;] I confirm all screenshots are cropped/blurred to remove PII (no names, emails, student IDs visible)
+- [&check;] I confirm all participants gave informed consent
+- [&check;] I confirm this work is my own (AI tools used for code assistance are cited below)
 
-**AI tools used** (if any): [e.g., "Copilot for route handler boilerplate (lines 45-67 in diffs)"]
+**AI tools used** (if any): Chatbot provided on Minerva for needs-finding exercise for Participant A's notes
 
 ---
 
@@ -25,40 +24,78 @@
 ### Link to Needs-Finding (LO2)
 
 **Week 6 Job Story #1**:
-> [Paste your Week 6 job story here - the one that informed your first task]
-
+When I am using a task manager app in bright sunlight, I want it to be able to adjust it to the  appropriate settings for my situation so that I don't have to waste so much time because it can be frustrating to do manually.
 **How Task 1 tests this**:
-[1 sentence explaining link]
+
+
+**Week 6 Job Story #2**
+When I work without a mouse, I want accessibilty friendly shortcuts, so that I can be less stressed while working because it makes my task a lot easier to complete.
+**How Task 2 tests this**
+
+
+**Week 6 Job Story #3:**
+When complete a task and cross it off on a list, I want to the item to disappear so that I can reassure myself that my workload is smaller because it will make feel anxious about the workload otherwise.
+**How Task 3 tests this:**
+
+
+**Week 6 Job Story #4:**
+When I have important deadlines coming up, I want to be able to keep track of them so that I don't receive any penalties because it will have a huge negative effect in me academically.
+**How Task 4 tests this:**
+
+
+**Week 6 Job Story #5:**
+When I look for a task in a list, I want to not spend so much time looking for it so that I don't waste time because I need to get my tasks done quickly.
+**How Task 5 tests this:**
+
+
+**Week 6 Job Story #6:**
+When I make the intention to make a to-do list, I want to not feel like it is a daunting task so that I don't procrastinate on doing them because these tasks are of high priority.
+**How Task 6 tests this:**
+
 
 ---
 
 ### Evaluation Tasks (4-5 tasks)
 
-#### Task 1 (T1): [Task Name]
+#### Task 1 (T1): Deletion
 
-- **Scenario**: [Brief context - what person needs to do]
-- **Action**: [Specific instruction - what to tell participant]
-- **Success**: [Observable outcome - how you know it worked]
-- **Target time**: [e.g., <10 seconds]
-- **Linked to**: [Week 6 Job Story #X]
+- **Scenario**: Deleting a task
+- **Action**: Delete a task and confirm that it has disappeared
+- **Success**: Deleting a task using shortcuts and having a quick search through the list to confirm it's gone
+- **Target time**:<10 seconds
+- **Linked to**: Week 6 Job Story #3
 
-#### Task 2 (T2): [Task Name]
+#### Task 2 (T2): Searching
 
-- **Scenario**:
-- **Action**:
-- **Success**:
-- **Target time**:
-- **Linked to**:
+- **Scenario**: Identifying a specific task/list of tasks
+- **Action**: Looking for a specific task that was just added without much effort
+- **Success**: Finding the item in the list after having a quick search
+- **Target time**: <15 seconds
+- **Linked to**: Week 6 Job Story #5
 
-#### Task 3 (T3): [Task Name]
+#### Task 3 (T3): Navigation
 
-- **Scenario**:
-- **Action**:
-- **Success**:
-- **Target time**:
-- **Linked to**:
+- **Scenario**: Navigating several lists of tasks
+- **Action**: Use the keyboard shortcuts to find a specific task
+- **Success**: Finding an item in the list after only using shortcuts
+- **Target time**: <20 seconds
+- **Linked to**: Week 6 Job Story #2
 
-[Add Tasks 4-5 as needed]
+#### Task 4 (T4): Priority order
+
+- **Scenario**: Marking how important a task is
+- **Action**: Add 3 tasks to the list that are of low, medium and high priority usin only shortcuts
+- **Success**: The 3 tasks have their priority displayed in the task manager, making it clear what must be completed as soon as possible
+- **Target time**: <=2 minutes
+- **Linked to**: Week 6 Job Story #
+
+#### Task 5 (T5): Usage in a brightly-lit environment
+
+- **Scenario**: Navigating and using all features in the task manager in a brightly lit environment
+- **Action**: Navigate the task manager and use all of its features with the keyboard shortcuts while a bright light is shone behind you
+- **Success**: Task manager interface still allowing for easy viewing 
+- **Target time**: <=30 seconds
+- **Linked to**: Week 6 Job Story #1
 
 ---
 
