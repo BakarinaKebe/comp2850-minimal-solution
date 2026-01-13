@@ -1,9 +1,7 @@
 # COMP2850 HCI Assessment: Evaluation & Redesign Portfolio
 
-**Note**: This submission is incomplete. Another submission will be made before the final deadline
-
-**Student**: [Your name and student ID]
-**Submission date**: [11/12/2025]
+**Student**: Bakarina Kebe (pssm9913)
+**Submission date**: /1/2026
 **Academic Year**: 2025-26
 
 ---
@@ -24,33 +22,32 @@
 ### Link to Needs-Finding (LO2)
 
 **Week 6 Job Story #1**:
-When I am using a task manager app in bright sunlight, I want it to be able to adjust it to the  appropriate settings for my situation so that I don't have to waste so much time because it can be frustrating to do manually.
-**How Task 1 tests this**:
+When I am using a task manager app in bright sunlight, I want it to be able to adjust it to the appropriate settings for my situation so that I don't have to waste so much time because it can be frustrating to do manually.
+**How Task 5 tests this:** Tests whether it is difficult or not to use the task manager app in such conditions; if the participant takes too long, the app is inappropriate for usage in bright sunlight.
 
 
 **Week 6 Job Story #2**
 When I work without a mouse, I want accessibilty friendly shortcuts, so that I can be less stressed while working because it makes my task a lot easier to complete.
-**How Task 2 tests this**
+**How Task 3 tests this:** While it would be faster to use a mouse, an accessible app should not make the user spend too long on an action using keyboard shortcuts; task 3 will test whether this is the case for the task manager.
 
 
 **Week 6 Job Story #3:**
 When complete a task and cross it off on a list, I want to the item to disappear so that I can reassure myself that my workload is smaller because it will make feel anxious about the workload otherwise.
-**How Task 3 tests this:**
+**How Task 1 tests this:** Making the task disappear with one command should provide some alleviation for the user, and it shouldn't take too much time to confirm the command executed properly.
 
 
 **Week 6 Job Story #4:**
 When I have important deadlines coming up, I want to be able to keep track of them so that I don't receive any penalties because it will have a huge negative effect in me academically.
-**How Task 4 tests this:**
 
 
 **Week 6 Job Story #5:**
 When I look for a task in a list, I want to not spend so much time looking for it so that I don't waste time because I need to get my tasks done quickly.
-**How Task 5 tests this:**
+**How Task 2 tests this:** If it takes more than 15 seconds to complete a simple task such as this one, the app has not be optimised for accessibility; task 2 will test for whether this is the case or not.
 
 
 **Week 6 Job Story #6:**
 When I make the intention to make a to-do list, I want to not feel like it is a daunting task so that I don't procrastinate on doing them because these tasks are of high priority.
-**How Task 6 tests this:**
+**How Task 4 tests this:** The user should feel more organised once this task is completed as it should mke their workload look a lot more manageable.
 
 
 ---
@@ -84,10 +81,10 @@ When I make the intention to make a to-do list, I want to not feel like it is a 
 #### Task 4 (T4): Priority order
 
 - **Scenario**: Marking how important a task is
-- **Action**: Add 3 tasks to the list that are of low, medium and high priority usin only shortcuts
+- **Action**: Add 3 tasks to the list that are of low, medium and high priority using only shortcuts
 - **Success**: The 3 tasks have their priority displayed in the task manager, making it clear what must be completed as soon as possible
 - **Target time**: <=2 minutes
-- **Linked to**: Week 6 Job Story #
+- **Linked to**: Week 6 Job Story #6
 
 #### Task 5 (T5): Usage in a brightly-lit environment
 
@@ -105,12 +102,12 @@ When I make the intention to make a to-do list, I want to not feel like it is a 
 "Thank you for participating in my HCI evaluation. This will take about 15 minutes. I'm testing my task management interface, not you. There are no right or wrong answers."
 
 **Rights**:
-- [ ] "Your participation is voluntary. You can stop at any time without giving a reason."
-- [ ] "Your data will be anonymous. I'll use a code (like P1) instead of your name."
-- [ ] "I may take screenshots and notes. I'll remove any identifying information."
-- [ ] "Do you consent to participate?" [Wait for verbal yes]
+- [&check;] "Your participation is voluntary. You can stop at any time without giving a reason."
+- [&check;] "Your data will be anonymous. I'll use a code (like P1) instead of your name."
+- [&check;] "I may take screenshots and notes. I'll remove any identifying information."
+- [&check;] "Do you consent to participate?" [Wait for verbal yes]
 
-**Recorded consent timestamp**: [e.g., "P1 consented 22/11/2025 14:05"]
+**Recorded consent timestamp**: 
 
 ---
 
