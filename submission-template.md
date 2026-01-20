@@ -1,7 +1,7 @@
 # COMP2850 HCI Assessment: Evaluation & Redesign Portfolio
 
 **Student**: Bakarina Kebe (pssm9913)
-**Submission date**: /1/2026
+**Submission date**: 20/1/2026
 **Academic Year**: 2025-26
 
 ---
@@ -117,18 +117,16 @@ When I make the intention to make a to-do list, I want to not feel like it is a 
 
 | Finding | Data Source | Observation (Quote/Timestamp) | WCAG | Impact (1-5) | Inclusion (1-5) | Effort (1-5) | Priority |
 |---------|-------------|------------------------------|------|--------------|-----------------|--------------|----------|
-| SR errors not announced | metrics.csv L47-49 + P2 notes 14:23 | P2: "I didn't hear any error" | 3.3.1 Level A | 5 | 5 | 3 | 7 |
-    | [Your finding 2] | [Link to metrics.csv line OR pilot notes] | [Participant quote + timestamp] | [WCAG criterion] | [1-5] | [1-5] | [1-5] | [Score] |
-    | [Your finding 3] | | | | | | | |
-| [Your finding 4] | | | | | | | |
-| [Your finding 5] | | | | | | | |
+| Difficulty confirming task was deleted | metrics.csv L18-22 | "Task added confirmation at the top could be bigger" | 1.4.4 Level AA | 3 | 4 | 1 | 6 |
+| Task title visibility low | metrics.csv L23-30 | "The text for the tasks should be bigger and the edit and delete buttons should be smaller in contrast" | 1.4.8 Level AAA | 4 | 5 | 2 | 7 |
+| Focus indicator visibility low | metrics.csv L34-40 | "Highlights around elements should be bigger" | 2.4.13 Level AAA | 4 | 5 | 2 | 7 |
 
 **Priority formula**: (Impact + Inclusion) - Effort
 
 **Top 3 priorities for redesign**:
-1. [Finding #X - Priority score Y]
-2. [Finding #X - Priority score Y]
-3. [Finding #X - Priority score Y]
+1. Finding #3 - Priority score 7
+2. Finding #2 - Priority score 7
+3. Finding #1 - Priority score 6
 
 ---
 
@@ -136,19 +134,51 @@ When I make the intention to make a to-do list, I want to not feel like it is a 
 
 **Instructions**: Paste your raw CSV data here OR attach metrics.csv file
 
-```csv
 ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
-2025-11-22T14:18:23.456Z,P1_a7f3,req_001,T1_add,success,,890,200,on
-[Your metrics data here - all rows from Logger.kt output]
-```
+2026-01-20T14:40:59.023972139Z,0cd9a7,r_a0869831,T0_list,success,,90,200,off
+2026-01-20T14:41:15.192997077Z,0cd9a7,r_7686b587,T3_add,success,,28,200,on
+2026-01-20T14:43:28.481346413Z,0cd9a7,r_a50adadf,T4_delete,success,,7,200,on
+2026-01-20T14:43:37.709512532Z,0cd9a7,r_132fec2b,T3_add,success,,13,200,on
+2026-01-20T14:44:16.349642992Z,0cd9a7,r_f2e3afc7,T3_add,success,,14,200,on
+2026-01-20T14:44:20.809539956Z,0cd9a7,r_92162b1b,T3_add,validation_error,min_length,0,400,on
+2026-01-20T14:44:20.820802666Z,0cd9a7,r_92162b1b,T3_add,success,,12,200,on
+2026-01-20T14:44:21.933901563Z,0cd9a7,r_7d04b549,T3_add,success,,14,200,on
+2026-01-20T14:44:22.760325770Z,0cd9a7,r_0547535a,T3_add,success,,15,200,on
+2026-01-20T14:44:23.263202276Z,0cd9a7,r_d91f1df9,T3_add,validation_error,min_length,0,400,on
+2026-01-20T14:44:23.276870476Z,0cd9a7,r_d91f1df9,T3_add,success,,13,200,on
+2026-01-20T14:44:23.671326155Z,0cd9a7,r_22a98d4d,T3_add,validation_error,min_length,0,400,on
+2026-01-20T14:44:23.684287931Z,0cd9a7,r_22a98d4d,T3_add,success,,13,200,on
+2026-01-20T14:44:23.990548526Z,0cd9a7,r_aa1fcc54,T3_add,success,,16,200,on
+2026-01-20T14:44:24.495477158Z,0cd9a7,r_e567ac1d,T3_add,success,,17,200,on
+2026-01-20T14:44:29.912637386Z,0cd9a7,r_4370ed94,T4_delete,success,,6,200,on
+2026-01-20T14:44:32.320198410Z,0cd9a7,r_972fc652,T4_delete,success,,6,200,on
+2026-01-20T14:44:33.527923176Z,0cd9a7,r_8f1f5dda,T4_delete,success,,5,200,on
+2026-01-20T14:44:34.616654074Z,0cd9a7,r_390d6d61,T4_delete,success,,5,200,on
+2026-01-20T14:44:35.590695725Z,0cd9a7,r_13abb321,T4_delete,success,,4,200,on
+2026-01-20T14:44:43.490066430Z,0cd9a7,r_ae336046,T2_edit,success,,8,200,on
+2026-01-20T14:45:53.094837520Z,0cd9a7,r_43ffa0ba,T4_delete,success,,5,200,on
+2026-01-20T14:46:05.326025534Z,0cd9a7,r_40bc6749,T3_add,success,,16,200,on
+2026-01-20T14:46:37.698503853Z,0cd9a7,r_d7d198e5,T3_add,success,,13,200,on
+2026-01-20T14:46:47.665537665Z,0cd9a7,r_1fd59068,T3_add,success,,12,200,on
+2026-01-20T14:46:54.996234862Z,0cd9a7,r_0b44bab5,T3_add,success,,16,200,on
+2026-01-20T14:47:03.028759364Z,0cd9a7,r_6feab7ce,T3_add,success,,15,200,on
+2026-01-20T14:47:18.870908800Z,0cd9a7,r_47b0bda1,T4_delete,success,,5,200,on
+2026-01-20T14:47:21.871854393Z,0cd9a7,r_17bb7572,T4_delete,success,,6,200,on
+2026-01-20T14:47:31.327089175Z,0cd9a7,r_8176516a,T2_edit,success,,10,200,on
+2026-01-20T14:47:48.190842388Z,0cd9a7,r_2bcb4e6f,T4_delete,success,,6,200,on
+2026-01-20T14:48:27.869229912Z,0cd9a7,r_5305279d,T3_add,success,,17,200,on
+2026-01-20T14:48:42.057841045Z,0cd9a7,r_e4ff4ea4,T3_add,success,,14,200,on
+2026-01-20T14:48:50.659748509Z,0cd9a7,r_89566304,T3_add,success,,16,200,on
+2026-01-20T14:48:59.957529796Z,0cd9a7,r_66ffd4e5,T4_delete,success,,5,200,on
+2026-01-20T14:49:06.766112709Z,0cd9a7,r_51ce8fd5,T2_edit,success,,10,200,on
+2026-01-20T14:53:02.336491802Z,0cd9a7,r_18fcbd3e,T0_list,success,,22,200,off
 
 **Participant summary**:
-- **P1**: [Variant - e.g., "Standard mouse + HTMX"]
-- **P2**: [Variant - e.g., "Keyboard-only, HTMX-on"]
-- **P3** (if applicable): [Variant]
-- **P4** (if applicable): [Variant]
+- **P1**: Standard mouse + JS-on
+- **P2**: Keyboard-only
+- **P3**: No-JS
 
-**Total participants**: [n=2, 3, or 4]
+**Total participants**: 3
 
 ---
 
