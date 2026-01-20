@@ -118,8 +118,8 @@ When I make the intention to make a to-do list, I want to not feel like it is a 
 | Finding | Data Source | Observation (Quote/Timestamp) | WCAG | Impact (1-5) | Inclusion (1-5) | Effort (1-5) | Priority |
 |---------|-------------|------------------------------|------|--------------|-----------------|--------------|----------|
 | SR errors not announced | metrics.csv L47-49 + P2 notes 14:23 | P2: "I didn't hear any error" | 3.3.1 Level A | 5 | 5 | 3 | 7 |
-| [Your finding 2] | [Link to metrics.csv line OR pilot notes] | [Participant quote + timestamp] | [WCAG criterion] | [1-5] | [1-5] | [1-5] | [Score] |
-| [Your finding 3] | | | | | | | |
+    | [Your finding 2] | [Link to metrics.csv line OR pilot notes] | [Participant quote + timestamp] | [WCAG criterion] | [1-5] | [1-5] | [1-5] | [Score] |
+    | [Your finding 3] | | | | | | | |
 | [Your finding 4] | | | | | | | |
 | [Your finding 5] | | | | | | | |
 
